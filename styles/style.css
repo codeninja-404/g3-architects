@@ -10,8 +10,19 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.btn-prime{
 
+body {
+    margin: 0;
+}
+
+.btn-prime {
+    background-color: #FF900E;
+    color: #fff;
+    border: 0;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
 
@@ -21,59 +32,96 @@
 
 /* nav styles */
 
-header{
+header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-title{
+.nav-title {
     font-size: 3rem;
     font-weight: 700;
     color: #131313;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
-    
+
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
 }
 
-nav li a{
-    text-decoration:none ;
-    color:#424242 ;
+nav li a {
+    text-decoration: none;
+    color: #424242;
 }
 
 /* banner styles */
 
-.banner-content{
+.banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
 
-.banner-title{
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
 
 
-.banner-description{
+.banner-description {
     color: #727272;
+}
+
+
+.banner img {
+    margin-top: 20px;
+    width: 100%;
 }
 
 
 
 
+
+/* responsive media queries */
+
+/* mobile device */
+
+@media screen and (max-width: 576px) {
+
+    header {
+        padding: 20px;
+
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+}
+
+
+/*tablet or medium device*/
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+    header {
+        padding: 40px;
+
+    } 
+    nav{
+        flex-direction: column;
+    }
+}
