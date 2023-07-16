@@ -180,9 +180,22 @@ main {
     margin-bottom: 10px ;
 }
 
+/* sponsors styles */
 
+.sponsors{
+    text-align: center;
+}
 
-
+ .s-img{
+    margin: 20px;
+    
+} 
+.sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 
 
