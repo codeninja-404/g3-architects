@@ -144,15 +144,57 @@ main {
 }
 
 
-/* facts section styles */
-.facts-card-container{
+/* feature section styles */
+.features {
+    margin-top: 130px;
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.feature-content .card {
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-years-badge{
+    border-radius: 8px;
+ background-color: #FF900E;
+ color: #FFF;
+ width: 340px;
+ padding: 40px;
+}
+
+.ten-years-badge h2{
+font-size: 4rem;
+margin: auto;
+}
+
+.ten-years-badge p{
+
+}
+
+.features .section-title {
+    border-left: #FF900E 7px solid;
+    padding-left: 20px;
 }
 
 
-.facts-card-container .card{
+
+
+/* facts section styles */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+
+.facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #ff900e;
     /* display: flex;
@@ -161,37 +203,38 @@ main {
     text-align: center;
     padding: 30px 30px;
     margin: 10px;
-    
-    
-    
+
+
+
 }
 
-.facts-card-container .card-title{
+.facts-card-container .card-title {
     font-weight: 600;
     color: #727272;
     font-size: 1.25rem;
     margin-top: 0;
 }
 
-.facts-card-container .card-stats{
+.facts-card-container .card-stats {
     font-size: 2.8rem;
     color: #424242;
     margin-top: 10px;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
 }
 
 /* sponsors styles */
 
-.sponsors{
+.sponsors {
     text-align: center;
 }
 
- .s-img{
+.s-img {
     width: 165p;
     margin: 20px;
-    
-} 
-.sponsors-img-container{
+
+}
+
+.sponsors-img-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -201,8 +244,8 @@ main {
 
 /* footer styles */
 
-.footer{
-    background-color:#FFF4E7 ;
+.footer {
+    background-color: #FFF4E7;
     width: 70%;
     text-align: center;
     margin: 100px auto;
@@ -229,7 +272,7 @@ main {
 
         margin: 40px auto;
     }
-    
+
 
     nav,
     .teams-container {
@@ -246,11 +289,12 @@ main {
         padding-left: 20px;
         width: 100%;
     }
-    .facts-card-container{
-    flex-direction: column;
-    gap: 30px;
 
-        
+    .facts-card-container {
+        flex-direction: column;
+        gap: 30px;
+
+
     }
 
 
@@ -265,11 +309,12 @@ main {
         padding: 40px;
 
     }
+
     main {
         width: 100%;
         margin: 40px auto;
     }
-    
+
 
     nav,
     .teams-container {
@@ -288,12 +333,13 @@ main {
         padding-left: 40px;
         width: 100%;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         flex-wrap: wrap;
         gap: 30px;
-    
-            
-        }
+
+
+    }
 
 
 }
