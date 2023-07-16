@@ -187,7 +187,7 @@ main {
 }
 
  .s-img{
-    width: 165px;
+    width: 165p;
     margin: 20px;
     
 } 
@@ -199,9 +199,15 @@ main {
 }
 
 
+/* footer styles */
 
-
-
+.footer{
+    background-color:#FFF4E7 ;
+    width: 70%;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+}
 
 
 
