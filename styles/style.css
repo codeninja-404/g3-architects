@@ -160,6 +160,7 @@ main {
     align-items: center; */
     text-align: center;
     padding: 30px 30px;
+    margin: 10px;
     
     
     
@@ -203,6 +204,13 @@ main {
 
     }
 
+    main {
+        width: 100%;
+
+        margin: 40px auto;
+    }
+    
+
     nav,
     .teams-container {
         flex-direction: column;
@@ -218,7 +226,12 @@ main {
         padding-left: 20px;
         width: 100%;
     }
+    .facts-card-container{
+    flex-direction: column;
+    gap: 30px;
 
+        
+    }
 
 
 }
@@ -232,6 +245,11 @@ main {
         padding: 40px;
 
     }
+    main {
+        width: 100%;
+        margin: 40px auto;
+    }
+    
 
     nav,
     .teams-container {
@@ -239,6 +257,7 @@ main {
     }
 
     .teams-img-container {
+
 
         width: 100%;
     }
@@ -249,7 +268,12 @@ main {
         padding-left: 40px;
         width: 100%;
     }
-
+    .facts-card-container{
+        flex-wrap: wrap;
+        gap: 30px;
+    
+            
+        }
 
 
 }
